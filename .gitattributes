@@ -1,0 +1,9 @@
+* text=auto
+*.pen -text
+*.png -text
+*.jpg -text
+*.ico -text
+*.icns -text
+*.jar -text
+*.sh text eol=lf
+**/gradlew text eol=lf

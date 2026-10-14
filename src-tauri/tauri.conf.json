@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "FLUX",
+  "version": "0.1.0",
+  "identifier": "fr.azks.flux",
+  "build": {"beforeDevCommand":"npm run dev","devUrl":"http://localhost:1420","beforeBuildCommand":"npm run build","frontendDist":"../dist"},
+  "app": {
+    "windows": [{"title":"FLUX","width":1100,"height":840,"minWidth":360,"minHeight":640,"backgroundColor":"#0A1014"}],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: http://asset.localhost https: data: blob:; font-src 'self'; connect-src 'self' ipc: http://ipc.localhost https://gql.twitch.tv https://*.ttvnw.net https://*.twitch.tv https://*.7tv.app https://7tv.io https://api.betterttv.net https://api.frankerfacez.com wss://irc-ws.chat.twitch.tv:443; media-src 'self' asset: http://asset.localhost blob: https://*.ttvnw.net https://*.twitch.tv https://d1ndex63qxojbr.cloudfront.net; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-src https://player.twitch.tv https://clips.twitch.tv",
+      "assetProtocol": {"enable": true,"scope": ["$APPDATA/downloads/**"]}
+    }
+  },
+  "bundle": {"active":true,"targets":["nsis"],"shortDescription":"Un client Twitch indépendant","category":"Entertainment","icon":["icons/32x32.png","icons/128x128.png","icons/128x128@2x.png","icons/icon.icns","icons/icon.ico"]}
+}

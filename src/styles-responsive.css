@@ -1,0 +1,361 @@
+@media (max-width: 639px) and (orientation: portrait) {
+  .player-shell.expanded:has(.chat-panel) {
+    height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+  .expanded .watch-meta,
+  .expanded .player-actions,
+  .expanded .chat-heading,
+  .expanded .chat-compose,
+  .expanded .chat-login {
+    flex-shrink: 0;
+  }
+  .expanded .chat-panel {
+    min-height: 0;
+  }
+  .expanded .chat-messages {
+    flex: 1;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+  }
+  .expanded .player-options {
+    max-height: 30dvh;
+    overflow: auto;
+  }
+}
+@media (min-width: 640px) {
+  .stream-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .games-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .main-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .hero-card .stream-image {
+    height: 340px;
+  }
+  .skeleton-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .media-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .intro h1 {
+    font-size: 42px;
+  }
+  .intro h1 br {
+    display: none;
+  }
+  .intro {
+    margin: 30px 0;
+  }
+  .profile-hero {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .form-panel,
+  .auth-card,
+  .service-panel,
+  .settings-panel,
+  .help-intro,
+  .faq,
+  .account-summary {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-panel:not(.glass) {
+    padding: 24px;
+  }
+  .welcome h1 {
+    font-size: 46px;
+  }
+  .minimal .main-content {
+    max-width: 720px;
+  }
+  .player-shell.expanded {
+    max-width: 1100px;
+    margin: auto;
+  }
+  .chat-messages {
+    height: 40dvh;
+  }
+  .player-shell.expanded .player-video {
+    max-height: 58dvh;
+  }
+  .interest-grid {
+    max-width: 600px;
+    margin: 25px auto;
+  }
+  .channel-cover {
+    height: 240px;
+  }
+  .player-shell.mini {
+    width: 290px;
+  }
+  .toast {
+    bottom: 105px;
+  }
+  .channel-cover > .avatar {
+    left: 15px;
+  }
+}
+@media (min-width: 1000px) {
+  .app-shell {
+    padding-left: 224px;
+  }
+  .desktop-sidebar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 224px;
+    border-right: 1px solid #ffffff0d;
+    padding: 40px 20px;
+    flex-direction: column;
+    background: #0a10148a;
+  }
+  .desktop-sidebar > .wordmark {
+    margin-left: 18px;
+  }
+  .desktop-sidebar > p {
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    margin: 15px 18px 40px;
+  }
+  .desktop-sidebar .nav-item {
+    flex: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+  }
+  .desktop-sidebar .nav-item small {
+    font-size: 13px;
+  }
+  .desktop-sidebar .nav-item.active {
+    background: #b2f5d414;
+  }
+  .desktop-sidebar .nav-item.active > span {
+    background: none;
+    color: var(--mint);
+  }
+  .desktop-sidebar .nav-item > span {
+    width: 32px;
+  }
+  .sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: auto 18px 0;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .floating-nav {
+    display: none;
+  }
+  .main-content {
+    padding: 30px 38px 70px;
+  }
+  .home-header {
+    margin-bottom: 15px;
+  }
+  .intro h1 {
+    font-size: 43px;
+  }
+  .featured-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+  .second-feature {
+    display: block;
+  }
+  .hero-card .stream-image {
+    height: 290px;
+  }
+  .games-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .player-shell.mini {
+    bottom: 25px;
+    right: 25px;
+    width: 310px;
+  }
+  .toast {
+    bottom: 28px;
+  }
+  .minimal .desktop-sidebar {
+    display: none;
+  }
+  .app-shell.minimal {
+    padding-left: 0;
+  }
+  .minimal .main-content {
+    padding-top: 45px;
+  }
+  .welcome-collage {
+    margin-top: -20px;
+  }
+  .player-shell.expanded {
+    padding: 25px 20px 20px;
+    max-width: 1120px;
+  }
+  .player-shell.expanded .player-video {
+    border-radius: 20px;
+  }
+  .watching .main-content:empty {
+    display: none;
+  }
+  .player-shell.expanded .chat-messages {
+    height: 300px;
+  }
+  .chat-compose {
+    max-width: none;
+  }
+  .channel-cover {
+    height: 270px;
+  }
+}
+@media (orientation: landscape) and (max-height: 600px) {
+  .player-shell.expanded {
+    height: 100dvh;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    grid-template-rows: auto auto minmax(0, 1fr);
+    padding: 0;
+  }
+  .player-shell.expanded .player-video {
+    grid-column: 1;
+    grid-row: 1/4;
+    height: 100dvh;
+    aspect-ratio: auto;
+    max-height: none;
+  }
+  .expanded .watch-meta {
+    grid-column: 2;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .expanded .watch-meta .avatar {
+    width: 28px;
+    height: 28px;
+  }
+  .expanded .player-actions {
+    grid-column: 2;
+    margin: 0 5px;
+    gap: 0;
+  }
+  .expanded .player-actions .audio-label {
+    display: none;
+  }
+  .expanded .chat-panel {
+    grid-column: 2;
+    min-height: 0;
+    padding: 0 10px;
+    height: auto;
+  }
+  .expanded .chat-messages {
+    min-height: 0;
+    height: auto;
+    flex: 1;
+  }
+  .expanded .chat-heading {
+    display: none;
+  }
+  .expanded .chat-login {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .expanded .chat-login,
+  .expanded .chat-compose {
+    flex-shrink: 0;
+  }
+  .expanded .player-options {
+    position: absolute;
+    z-index: 5;
+    right: 5px;
+    top: 100px;
+    background: #152129;
+  }
+  .expanded .replay-info {
+    overflow: auto;
+    font-size: 12px;
+  }
+  .expanded .replay-info h2 {
+    font-size: 14px;
+  }
+  .app-shell.watching {
+    padding: 0;
+  }
+  .watching .desktop-sidebar {
+    display: none;
+  }
+}
+/* Pointer input and keyboard focus use the same accessible switch. */
+@media (max-width: 380px) {
+  .player-actions {
+    margin: 0 8px 8px;
+    gap: 0;
+  }
+  .player-actions .audio-label {
+    display: none;
+  }
+}
+.toggle-row input {
+  z-index: 1;
+  cursor: pointer;
+  margin: 0;
+  min-height: 44px;
+}
+.toggle-row i {
+  pointer-events: none;
+  flex-shrink: 0;
+}
+.download-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.download-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+}
+.download-row strong {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.download-row small {
+  font-size: 11px;
+  color: var(--muted);
+}
+.download-row progress {
+  width: 100%;
+  accent-color: var(--mint);
+}
+::selection {
+  background: #b2f5d450;
+  color: var(--text);
+}
+input,
+textarea {
+  caret-color: var(--mint);
+}
+* {
+  scrollbar-color: #49605f #142028;
+  scrollbar-width: thin;
+}

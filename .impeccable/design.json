@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T15:14:38.127Z",
+  "title": "Design System: FLUX Mobile",
+  "extensions": {
+    "colorMeta": {
+      "mint": {
+        "role": "primary",
+        "displayName": "Menthe lumineuse",
+        "tonalRamp": [
+          "oklch(15.00% 0.08098 162.92)",
+          "oklch(26.43% 0.08098 162.92)",
+          "oklch(37.86% 0.08098 162.92)",
+          "oklch(49.29% 0.08098 162.92)",
+          "oklch(60.71% 0.08098 162.92)",
+          "oklch(72.14% 0.08098 162.92)",
+          "oklch(83.57% 0.08098 162.92)",
+          "oklch(95.00% 0.08098 162.92)"
+        ]
+      },
+      "on-mint": {
+        "role": "neutral",
+        "displayName": "Encre sur menthe",
+        "tonalRamp": [
+          "oklch(15.00% 0.03681 165.38)",
+          "oklch(26.43% 0.03681 165.38)",
+          "oklch(37.86% 0.03681 165.38)",
+          "oklch(49.29% 0.03681 165.38)",
+          "oklch(60.71% 0.03681 165.38)",
+          "oklch(72.14% 0.03681 165.38)",
+          "oklch(83.57% 0.03681 165.38)",
+          "oklch(95.00% 0.03681 165.38)"
+        ]
+      },
+      "live": {
+        "role": "secondary",
+        "displayName": "Corail de direct",
+        "tonalRamp": [
+          "oklch(15.00% 0.16640 25.85)",
+          "oklch(26.43% 0.16640 25.85)",
+          "oklch(37.86% 0.16640 25.85)",
+          "oklch(49.29% 0.16640 25.85)",
+          "oklch(60.71% 0.16640 25.85)",
+          "oklch(72.14% 0.16640 25.85)",
+          "oklch(83.57% 0.16640 25.85)",
+          "oklch(95.00% 0.16640 25.85)"
+        ]
+      },
+      "live-badge": {
+        "role": "secondary",
+        "displayName": "Rouge de badge",
+        "tonalRamp": [
+          "oklch(15.00% 0.15841 24.90)",
+          "oklch(26.43% 0.15841 24.90)",
+          "oklch(37.86% 0.15841 24.90)",
+          "oklch(49.29% 0.15841 24.90)",
+          "oklch(60.71% 0.15841 24.90)",
+          "oklch(72.14% 0.15841 24.90)",
+          "oklch(83.57% 0.15841 24.90)",
+          "oklch(95.00% 0.15841 24.90)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Blanc",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Encre nocturne",
+        "tonalRamp": [
+          "oklch(15.00% 0.01260 237.70)",
+          "oklch(26.43% 0.01260 237.70)",
+          "oklch(37.86% 0.01260 237.70)",
+          "oklch(49.29% 0.01260 237.70)",
+          "oklch(60.71% 0.01260 237.70)",
+          "oklch(72.14% 0.01260 237.70)",
+          "oklch(83.57% 0.01260 237.70)",
+          "oklch(95.00% 0.01260 237.70)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Ardoise de surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.02281 238.13)",
+          "oklch(26.43% 0.02281 238.13)",
+          "oklch(37.86% 0.02281 238.13)",
+          "oklch(49.29% 0.02281 238.13)",
+          "oklch(60.71% 0.02281 238.13)",
+          "oklch(72.14% 0.02281 238.13)",
+          "oklch(83.57% 0.02281 238.13)",
+          "oklch(95.00% 0.02281 238.13)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Blanc doux",
+        "tonalRamp": [
+          "oklch(15.00% 0.00591 170.45)",
+          "oklch(26.43% 0.00591 170.45)",
+          "oklch(37.86% 0.00591 170.45)",
+          "oklch(49.29% 0.00591 170.45)",
+          "oklch(60.71% 0.00591 170.45)",
+          "oklch(72.14% 0.00591 170.45)",
+          "oklch(83.57% 0.00591 170.45)",
+          "oklch(95.00% 0.00591 170.45)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Gris de lecture",
+        "tonalRamp": [
+          "oklch(15.00% 0.02037 208.75)",
+          "oklch(26.43% 0.02037 208.75)",
+          "oklch(37.86% 0.02037 208.75)",
+          "oklch(49.29% 0.02037 208.75)",
+          "oklch(60.71% 0.02037 208.75)",
+          "oklch(72.14% 0.02037 208.75)",
+          "oklch(83.57% 0.02037 208.75)",
+          "oklch(95.00% 0.02037 208.75)"
+        ]
+      },
+      "glass-fill-start": {
+        "role": "neutral",
+        "displayName": "Verre — reflet supérieur",
+        "tonalRamp": [
+          "oklch(15.00% 0.03289 165.18)",
+          "oklch(26.43% 0.03289 165.18)",
+          "oklch(37.86% 0.03289 165.18)",
+          "oklch(49.29% 0.03289 165.18)",
+          "oklch(60.71% 0.03289 165.18)",
+          "oklch(72.14% 0.03289 165.18)",
+          "oklch(83.57% 0.03289 165.18)",
+          "oklch(95.00% 0.03289 165.18)"
+        ]
+      },
+      "glass-fill-middle": {
+        "role": "neutral",
+        "displayName": "Verre — transparence centrale",
+        "tonalRamp": [
+          "oklch(15.00% 0.03590 179.24)",
+          "oklch(26.43% 0.03590 179.24)",
+          "oklch(37.86% 0.03590 179.24)",
+          "oklch(49.29% 0.03590 179.24)",
+          "oklch(60.71% 0.03590 179.24)",
+          "oklch(72.14% 0.03590 179.24)",
+          "oklch(83.57% 0.03590 179.24)",
+          "oklch(95.00% 0.03590 179.24)"
+        ]
+      },
+      "glass-fill-end": {
+        "role": "neutral",
+        "displayName": "Verre — profondeur inférieure",
+        "tonalRamp": [
+          "oklch(15.00% 0.03250 226.36)",
+          "oklch(26.43% 0.03250 226.36)",
+          "oklch(37.86% 0.03250 226.36)",
+          "oklch(49.29% 0.03250 226.36)",
+          "oklch(60.71% 0.03250 226.36)",
+          "oklch(72.14% 0.03250 226.36)",
+          "oklch(83.57% 0.03250 226.36)",
+          "oklch(95.00% 0.03250 226.36)"
+        ]
+      },
+      "glass-stroke-start": {
+        "role": "neutral",
+        "displayName": "Contour — reflet supérieur",
+        "tonalRamp": [
+          "oklch(15.00% 0.02211 160.25)",
+          "oklch(26.43% 0.02211 160.25)",
+          "oklch(37.86% 0.02211 160.25)",
+          "oklch(49.29% 0.02211 160.25)",
+          "oklch(60.71% 0.02211 160.25)",
+          "oklch(72.14% 0.02211 160.25)",
+          "oklch(83.57% 0.02211 160.25)",
+          "oklch(95.00% 0.02211 160.25)"
+        ]
+      },
+      "glass-stroke-middle": {
+        "role": "neutral",
+        "displayName": "Contour — transparence centrale",
+        "tonalRamp": [
+          "oklch(15.00% 0.03464 166.89)",
+          "oklch(26.43% 0.03464 166.89)",
+          "oklch(37.86% 0.03464 166.89)",
+          "oklch(49.29% 0.03464 166.89)",
+          "oklch(60.71% 0.03464 166.89)",
+          "oklch(72.14% 0.03464 166.89)",
+          "oklch(83.57% 0.03464 166.89)",
+          "oklch(95.00% 0.03464 166.89)"
+        ]
+      },
+      "glass-stroke-end": {
+        "role": "neutral",
+        "displayName": "Contour — reflet inférieur",
+        "tonalRamp": [
+          "oklch(15.00% 0.03932 170.40)",
+          "oklch(26.43% 0.03932 170.40)",
+          "oklch(37.86% 0.03932 170.40)",
+          "oklch(49.29% 0.03932 170.40)",
+          "oklch(60.71% 0.03932 170.40)",
+          "oklch(72.14% 0.03932 170.40)",
+          "oklch(83.57% 0.03932 170.40)",
+          "oklch(95.00% 0.03932 170.40)"
+        ]
+      },
+      "glass-nav-base": {
+        "role": "neutral",
+        "displayName": "Base de navigation",
+        "tonalRamp": [
+          "oklch(15.00% 0.03342 225.61)",
+          "oklch(26.43% 0.03342 225.61)",
+          "oklch(37.86% 0.03342 225.61)",
+          "oklch(49.29% 0.03342 225.61)",
+          "oklch(60.71% 0.03342 225.61)",
+          "oklch(72.14% 0.03342 225.61)",
+          "oklch(83.57% 0.03342 225.61)",
+          "oklch(95.00% 0.03342 225.61)"
+        ]
+      },
+      "glass-camera-tint": {
+        "role": "neutral",
+        "displayName": "Teinte caméra",
+        "tonalRamp": [
+          "oklch(15.00% 0.02361 233.03)",
+          "oklch(26.43% 0.02361 233.03)",
+          "oklch(37.86% 0.02361 233.03)",
+          "oklch(49.29% 0.02361 233.03)",
+          "oklch(60.71% 0.02361 233.03)",
+          "oklch(72.14% 0.02361 233.03)",
+          "oklch(83.57% 0.02361 233.03)",
+          "oklch(95.00% 0.02361 233.03)"
+        ]
+      },
+      "glass-opaque": {
+        "role": "neutral",
+        "displayName": "Surface opaque",
+        "tonalRamp": [
+          "oklch(15.00% 0.02844 230.46)",
+          "oklch(26.43% 0.02844 230.46)",
+          "oklch(37.86% 0.02844 230.46)",
+          "oklch(49.29% 0.02844 230.46)",
+          "oklch(60.71% 0.02844 230.46)",
+          "oklch(72.14% 0.02844 230.46)",
+          "oklch(83.57% 0.02844 230.46)",
+          "oklch(95.00% 0.02844 230.46)"
+        ]
+      },
+      "glass-shadow": {
+        "role": "neutral",
+        "displayName": "Ombre du verre",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "size-13": {
+        "displayName": "Inter 13",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-14": {
+        "displayName": "Inter 14",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-16": {
+        "displayName": "Inter 16",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-18": {
+        "displayName": "Inter 18",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-21": {
+        "displayName": "Inter 21",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-23": {
+        "displayName": "Inter 23",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-26": {
+        "displayName": "Inter 26",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-30": {
+        "displayName": "Inter 30",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      },
+      "size-32": {
+        "displayName": "Inter 32",
+        "purpose": "Taille observée dans la maquette ; attribution au rôle à vérifier dans chaque écran."
+      }
+    },
+    "shadows": [
+      {
+        "name": "glass-outer",
+        "value": "0 8px 24px #00000040",
+        "purpose": "Ombre extérieure observée sur le verre V2."
+      }
+    ],
+    "motion": [],
+    "breakpoints": [],
+    "glass": {
+      "revision": "V2",
+      "changedSurfaces": 83,
+      "fill": {
+        "type": "linear",
+        "rotation": 145,
+        "stops": [
+          {
+            "position": 0,
+            "colorRef": "colors.glass-fill-start"
+          },
+          {
+            "position": 0.45,
+            "colorRef": "colors.glass-fill-middle"
+          },
+          {
+            "position": 1,
+            "colorRef": "colors.glass-fill-end"
+          }
+        ]
+      },
+      "stroke": {
+        "width": "1px",
+        "type": "linear",
+        "rotation": 145,
+        "stops": [
+          {
+            "position": 0,
+            "colorRef": "colors.glass-stroke-start"
+          },
+          {
+            "position": 0.45,
+            "colorRef": "colors.glass-stroke-middle"
+          },
+          {
+            "position": 1,
+            "colorRef": "colors.glass-stroke-end"
+          }
+        ]
+      },
+      "backgroundBlur": "18px",
+      "sourceEffect": "background_blur",
+      "shadowRef": "glass-outer",
+      "navigationBaseRef": "colors.glass-nav-base",
+      "navigationInactiveColorRef": "colors.text",
+      "ambientBackdrop": {
+        "screens": [
+          1,
+          3
+        ],
+        "subject": "Photographie IRL",
+        "opacity": 0.24,
+        "blur": 64
+      },
+      "homeMediaBelowNavigation": true,
+      "cameraGlass": {
+        "screens": [
+          42,
+          43
+        ],
+        "baseColorRef": "colors.glass-camera-tint"
+      },
+      "opaqueExceptions": [
+        {
+          "screen": 42,
+          "nodeId": "rrFbx",
+          "backgroundRef": "colors.glass-opaque",
+          "textPadding": 14
+        },
+        {
+          "screen": 72,
+          "element": "navigation",
+          "treatment": "opaque"
+        }
+      ]
+    },
+    "evidence": {
+      "kind": "static-design",
+      "source": "Flux-Mobile.pen",
+      "inventory": "exports/inventory.json",
+      "screenCount": 76,
+      "portraitCount": 75,
+      "landscapeCount": 1,
+      "guideBoardCount": 1,
+      "reusableComponentIds": [
+        "eKp2A",
+        "wYjTN",
+        "heqCu"
+      ],
+      "runtimeValidated": false,
+      "revision": "V2"
+    },
+    "previewGuidance": "Rampes OKLCH synthétiques de documentation ; opacité omise dans les rampes pour comparer la couleur de base. Les HTML/CSS sont des adaptations de présentation, pas du code applicatif extrait. Focus, survol, pression et dimensions internes non documentées sont des conseils d’implémentation. Aucun breakpoint ou token de mouvement n’est établi.",
+    "provenance": {
+      "v1": {
+        "current": false,
+        "fill": "#22343DCC",
+        "stroke": "#D6FFF324",
+        "backgroundBlur": 24,
+        "shadows": "none",
+        "note": "Première version remplacée sur les surfaces de verre V2 après correction de l’utilisateur."
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Adaptation HTML du bouton natif wYjTN. Focus, survol et pression proposés pour le panneau documentaire.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Continuer</button>",
+      "css": ".ds-primary{width:350px;max-width:100%;height:52px;border:0;border-radius:26px;background:#B2F5D4;color:#10291F;font:600 16px Inter,sans-serif;cursor:pointer}.ds-primary:hover{filter:brightness(.96)}.ds-primary:focus-visible{outline:3px solid #F2F7F5;outline-offset:4px}.ds-primary:active{filter:brightness(.9)}"
+    },
+    {
+      "name": "Navigation flottante",
+      "kind": "nav",
+      "refersTo": "floating-nav",
+      "description": "Adaptation documentaire HTML V2 de eKp2A. Dégradés, base, contour, flou et ombre suivent les valeurs natives ; la conversion de rotation en angle CSS doit être vérifiée lors d’une implémentation. Géométrie interne et états clavier proposés pour cet aperçu.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navigation principale\"><button type=\"button\" class=\"ds-nav-item ds-nav-selected\" aria-current=\"page\">Accueil</button><button type=\"button\" class=\"ds-nav-item\">Explorer</button><button type=\"button\" class=\"ds-nav-item\">Suivis</button><button type=\"button\" class=\"ds-nav-item\">Profil</button></nav>",
+      "css": ".ds-nav{position:relative;isolation:isolate;display:flex;align-items:center;justify-content:space-evenly;width:350px;max-width:100%;height:76px;border-radius:38px;background:linear-gradient(145deg,#E4FFF238 0%,#D4F5ED14 45%,#162C354D 100%),#132A3333;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 8px 24px #00000040}.ds-nav::before{content:\"\";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(145deg,#EEFFF5A6 0%,#E2FFF21A 45%,#D5F7EA5C 100%);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;pointer-events:none}.ds-nav-item{position:relative;border:0;border-radius:24px;padding:14px 10px;background:transparent;color:#F2F7F5;font:500 13px Inter,sans-serif;cursor:pointer}.ds-nav-selected{background:#B2F5D4;color:#10291F}.ds-nav-item:hover{filter:brightness(1.1)}.ds-nav-item:focus-visible{outline:2px solid #F2F7F5;outline-offset:2px}.ds-nav-item:active{filter:brightness(.9)}"
+    },
+    {
+      "name": "Badge de direct",
+      "kind": "chip",
+      "refersTo": "live-badge",
+      "description": "Motif visuel non déclaré comme composant natif réutilisable. Couleurs observées ; espacement et rayon de cet aperçu sont documentaires.",
+      "html": "<span class=\"ds-live\">EN DIRECT</span>",
+      "css": ".ds-live{display:inline-flex;align-items:center;border-radius:8px;padding:6px 9px;background:#C34845;color:#FFFFFF;font:700 13px Inter,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le direct derrière le verre",
+    "overview": "Ce nom décrit la direction réalisée ; il ne constitue pas une préférence supplémentaire attribuée à l’utilisateur. Les demandes confirmées sont une application mobile, un design moderne, du glassmorphisme et un menu flottant. Le nom FLUX, la langue française et la palette sont les choix de conception de cette livraison.\n\nLe système place les images de diffusion sur un fond sombre, avec des commandes arrondies et une navigation de verre. L’accent menthe identifie les actions principales et la destination sélectionnée. Les informations de direct utilisent un accent distinct pour conserver une hiérarchie lisible. La révision V2 répond à la correction de l’utilisateur sur l’opacité excessive des panneaux : 83 surfaces de verre ont été rendues plus transparentes, avec des reflets en dégradé et une ombre douce.",
+    "keyCharacteristics": [
+      "Fond sombre et contenu vidéo au premier plan.",
+      "Navigation flottante à quatre destinations.",
+      "Verre transparent en dégradé, reflets fins et ombre douce.",
+      "Accent menthe pour les actions principales."
+    ],
+    "rules": [
+      {
+        "name": "The Badge Contrast Rule",
+        "body": "Conserver le rouge de badge sous le texte blanc du direct ; ne pas le remplacer automatiquement par le corail de la palette.",
+        "section": "colors"
+      },
+      {
+        "name": "The Glass Readability Rule",
+        "body": "Maintenir une surface protectrice derrière les commandes qui chevauchent une image de diffusion.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** conserver la hiérarchie fond sombre, contenu vidéo, commandes de verre et accent menthe.",
+      "**Do** réutiliser les trois composants natifs pour les nouvelles compositions compatibles.",
+      "**Do** protéger les commandes superposées aux images avec un fond lisible.",
+      "**Do** distinguer les tokens observés des conseils d’implémentation."
+    ],
+    "donts": [
+      "**Don't** présenter les cadres statiques comme un prototype fonctionnel ou une application testée.",
+      "**Don't** convertir les dimensions de canevas en promesse de comportement responsive.",
+      "**Don't** confondre le corail de palette avec le rouge du badge de direct.",
+      "**Don't** présenter les aperçus HTML ou les rampes synthétiques comme des composants natifs supplémentaires."
+    ]
+  }
+}

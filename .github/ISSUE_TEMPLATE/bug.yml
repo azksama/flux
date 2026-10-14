@@ -1,0 +1,16 @@
+name: Bug report
+description: Report a reproducible FLUX problem
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Device, OS and FLUX version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and expected behavior
+      description: Never include OAuth tokens, vault passwords or personal chat logs.
+    validations:
+      required: true
