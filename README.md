@@ -4,6 +4,12 @@ Un client Twitch indépendant en **Rust / Tauri 2**, avec une interface françai
 
 Inspiré de [Xtra](https://github.com/crackededed/Xtra), sous **AGPL-3.0**. Le design original éditable est livré dans [Flux-Mobile.pen](Flux-Mobile.pen), avec ses règles dans [DESIGN.md](DESIGN.md).
 
+[Télécharger la préversion Android / Windows](https://github.com/azksama/flux/releases/tag/v0.1.0-alpha.1) · [Résultats CI](https://github.com/azksama/flux/actions)
+
+<img src="docs/images/android-home.png" width="300" alt="FLUX sur Android : accueil avec des directs réels et menu flottant en verre dépoli" />
+
+Capture de l’application native dans Android Emulator, le 14 octobre 2026. Les contenus Twitch varient. [Voir la version Windows](docs/images/windows-home.png).
+
 ## Fonctionnalités
 
 - Directs, catégories, recherche, chaînes, biographies, replays et clips sur les services réels Twitch.
@@ -80,6 +86,7 @@ Le test Android instrumenté `FluxSmokeTest` lance le vrai WebView et vérifie c
 ## Sources et conception
 
 - [Architecture et sécurité](docs/ARCHITECTURE.md)
+- [Transposition du design et relecture](docs/IMPLEMENTATION_DESIGN.md)
 - [Couverture des maquettes](docs/SCREENS.md)
 - [Crédits et licences](THIRD_PARTY_NOTICES.md)
 - [Documents de la phase design](docs/design/README.md)
